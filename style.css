@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+/* NAVIGACIJA. Jei turėsiu laiko padaryti, kad navigacija pereitų į 
+apačią kai judi per puslapį ar paspaudi navigacijos mygtuką.  */
+
+body{background-image: url('background.jpg');
+background-size:cover}
+
+.nav {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  background-color: black;
+  grid-column-gap: 20px;
+  border-bottom: 4pt solid rgb(89, 89, 238);
+  width: 100%;
+  position: fixed;
+  overflow: hidden;
+}
+
+.grid-item {
+  background-color: black;
+  font-size: 30px;
+  text-align: center;
+  color: #39AEA9;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.nav-item {
+  text-decoration: none;
+}
+
+.nav-item:visited {
+  color:#39AEA9 ;
+}
+
+.nav-item:hover {
+  color: rgb(150, 219, 21);
+  font-family:'Lato';
+}
+
+.pavadinimai {
+  color: #E83A14;
+  border: solid #D9CE3F 4px;
+  background: black;
+  text-align: center;
+}
+
+
+/* MOKSLAS. Suprogramuoti, kad rodytu pavadinimus kai hover ant nuotraukos.*/
+
+.container-mokslas {
+  display: grid;
+  grid-template-columns:repeat(autofit, 100px);
+  grid-template-rows:auto auto auto; 
+  grid-gap:5px;
+  background: #1A1A40;
+  color: #ECB365;
+  margin: 20px;
+  border: 5px solid #270082;
+  padding: 10px;
+  border-top: 5px dashed #270082;
+  border-bottom: 5px dotted #270082;
+  overflow:auto;
+  max-width:2200px;
+}
+
+.p-mokslas{
+  text-align:justify;
+}
+#p-mokslas1{
+  grid-column: 1 / -1;
+}
+
+.img1-mokslas{margin: none;
+border: 5px double #B3541E;
+padding: none;
+border-top: 5px solid #B3541E;
+border-bottom: 5px solid #B3541E;}
+
+/* MUZIKA.  */
+
+Gaila, bet nespejau padaryti visko, ka norejau padaryti, tikiuosi tiek 
+uzteks, o daug kodo istrinta ar numesta i aplanka kompiutery, veliau turbut
+bandysiu surast, kas tiksliai blogai buvo su gridu specifiskai, nes daug
+laiko isejo bandant priversti ji veikti.  
+
+/* DETEKTYVAI.  */
+
+/* MEDIJA.  */
+
+/* TIKĖJIMAS. */
+
